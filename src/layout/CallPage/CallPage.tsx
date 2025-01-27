@@ -91,7 +91,7 @@ const StyledInput = styled.input `
   width: 500px;
   height: 60px;
   background: #FFFFFF;
-  box-shadow: inset 0px 4px 10.4px rgba(104, 103, 103, 0.25);
+  box-shadow: inset 0 4px 10.4px rgba(104, 103, 103, 0.25);
   border-radius: 40px;
   outline: none;
   @media (max-width: 768px) {
@@ -109,7 +109,7 @@ const StyledSelect = styled.select `
   padding-left:20px;
   padding-right: 30px;
   outline: none;
-  box-shadow: inset 0px 4px 10.4px rgba(104, 103, 103, 0.25);
+  box-shadow: inset 0 4px 10.4px rgba(104, 103, 103, 0.25);
   @media (max-width: 768px) {
     width: 300px;
     height: 45px;
@@ -130,9 +130,7 @@ const StyledForm = styled.form `
   }
 `
 
-const StyledOption = styled.option `
-  color: #B6B5B5;
-`
+
 
 const StyledButton = styled.button `
   display: flex;
@@ -169,7 +167,7 @@ const FormWrap = styled.div `
   height: 802px;
   background: linear-gradient(123.98deg, rgba(255, 255, 255, 0.456) 19.77%, rgba(255, 255, 255, 0.66) 39.15%, rgba(255, 255, 255, 0) 58%), rgba(224, 248, 245, 0.44);
   border: 0.5px solid rgba(182, 203, 203, 0.3);
-  box-shadow: 0px 3px 18.1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 3px 18.1px rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(25px);
   border-radius: 50px;
   //flex-direction: column;
@@ -201,7 +199,7 @@ const RightColumn = styled.div `
     margin-left: 1%;
     background: linear-gradient(123.98deg, rgba(255, 255, 255, 0.456) 19.77%, rgba(255, 255, 255, 0.66) 39.15%, rgba(255, 255, 255, 0) 58%), rgba(224, 248, 245, 0.44);
     border: 0.5px solid rgba(182, 203, 203, 0.3);
-    box-shadow: 0px 3px 18.1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 18.1px rgba(0, 0, 0, 0.08);
     backdrop-filter: blur(25px);
     border-radius: 30px;
     width: 320px;
