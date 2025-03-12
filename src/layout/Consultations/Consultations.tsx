@@ -52,6 +52,7 @@ const StyledCons = styled.div `
 const StyledMainWrap = styled.div `
   @media (max-width: 768px) {
     display: flex;
+    justify-content: center;
     flex-direction: row;
   }
 

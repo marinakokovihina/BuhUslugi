@@ -30,7 +30,7 @@ export const StyledWrapper = styled.div <StyledWrapperTypes>`
   }
     @media (min-width: 375px) and (max-width: 767px){
     //width: auto;
-      margin-left: 0;
+    //  margin-left: 0;
     //  width: fit-content;
 
     }

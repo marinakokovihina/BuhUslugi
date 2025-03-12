@@ -186,7 +186,7 @@ const LeftColumn = styled.div `
   margin-top: -40px;
   margin-left: -60px;
   @media (max-width: 768px) {
-    margin-left: -35px;
+    margin-left: -20px;
     margin-top: -45px;
     position: absolute;
     z-index: -1;
@@ -196,7 +196,7 @@ const RightColumn = styled.div `
     margin-top: 77px;
   @media (max-width: 768px) {
     margin-top: 115px;
-    margin-left: 1%;
+    margin-left: 5%;
     background: linear-gradient(123.98deg, rgba(255, 255, 255, 0.456) 19.77%, rgba(255, 255, 255, 0.66) 39.15%, rgba(255, 255, 255, 0) 58%), rgba(224, 248, 245, 0.44);
     border: 0.5px solid rgba(182, 203, 203, 0.3);
     box-shadow: 0 3px 18.1px rgba(0, 0, 0, 0.08);

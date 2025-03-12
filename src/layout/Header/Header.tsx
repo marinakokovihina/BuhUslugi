@@ -21,6 +21,7 @@ const StyledHeader = styled.header `
   top: 0;
   background: rgba(177, 200, 198, 0.76);
   @media (max-width: 768px) {
-    max-width:390px ;
+    //max-width:390px ;
+    left: 0;
   }
 `
